@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FDApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="success">Success</string>
+    <string name="success_title">Hóa Đơn</string>
+    <string name="codeAcept">Mã Xác Nhận</string>
+    <string name="success_Message">Hoá đơn của bạn đã được xử lý thành công</string>
+    <string name="btnNo">Đóng</string>
+    <string name="btnYes">Xem chi tiết</string>
+</resources>

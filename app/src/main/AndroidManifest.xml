@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tai06.dothetai.fdapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme">
+        <activity android:name=".Activity.InfoKhachhangActivity"></activity>
+        <activity android:name=".Activity.DonHangActivity" />
+        <activity android:name=".Activity.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminActivity.UpdateActivity" />
+        <activity android:name=".AdminActivity.UpdateSanPhamActivity" />
+        <activity android:name=".AdminActivity.InsertSanphamActivity" />
+        <activity android:name=".FogotPassword.NewPasswordActivity" />
+        <activity android:name=".FogotPassword.CheckCodeActivity" />
+        <activity android:name=".FogotPassword.ForgotpswActivity" />
+        <activity android:name=".Activity.ViewMoreActivity" />
+        <activity android:name=".LoginSignup.ChangepswActivity" />
+        <activity android:name=".LoginSignup.LoginActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".Activity.HoaDonActivity" />
+        <activity android:name=".Activity.InfoDrinkActivity" />
+        <activity android:name=".Activity.InfoFoodActivity" />
+        <activity android:name=".Activity.SearchViewActivity" />
+        <activity android:name=".Activity.MainActivity" />
+    </application>
+
+</manifest>
